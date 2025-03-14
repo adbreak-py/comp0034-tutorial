@@ -113,7 +113,7 @@ the [dbc.Card reference](https://dash-bootstrap-components.opensource.faculty.ai
 ```python
 # Column 2 children
 dbc.Card([
-    dbc.CardImg(src=app.get_asset_url("logos/2022_Beijing.png"), top=True),
+    dbc.CardImg(src=app.get_asset_url("logos/2022_Beijing.jpg"), top=True),
     dbc.CardBody([
         html.H4("Beijing 2022", className="card-title"),
         html.P("Number of athletes: XX", className="card-text", ),
@@ -129,4 +129,4 @@ dbc.Card([
 Run the app and check it displays as you expected. The design could be improved so feel free to make any changes you
 wish!
 
-[Next activity](1-7-multipage-app)
+[Next activity](1-7-multipage-app.md)
